@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+	<head>
+		<meta charset="utf-8" />
+		<title>Apache Wicket Quickstart</title>
+		<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:regular,bold' rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" href="style.css" type="text/css" media="screen" title="Stylesheet" />
+	</head>
+	<body>
+
+		        <form method="post" action="#" wicket:id="usuarioForm">
+		     <table border="0" cellpadding="5">
+                <tr>
+                    <td width="200">Nombre</td>
+                    <td><input type="text" wicket:id="nombre" size="20" maxlength="50"/></td>
+                </tr>
+                <tr>
+                    <td width="200">Correo</td>
+                    <td><input type="text" wicket:id="correo" size="20" maxlength="50"/></td>
+                </tr>
+                <tr>
+                    <td width="200">Celular</td>
+                    <td><input type="text" wicket:id="celular" size="20"/></td>
+                </tr>
+                <tr>
+                    <td width="200">Fecha de nacimiento</td>
+                    <td><input type="text" wicket:id="fechaNacimiento" size="20"/></td>
+                </tr>
+                <tr>
+                    <td width="200">&nbsp;</td>
+                    <td><input type="submit" value="Registrar"/></td>
+                </tr>
+            </table>
+            </form>
+		
+	</body>
+</html>
